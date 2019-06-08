@@ -16,15 +16,15 @@ $ git clone https: (...).git
 
 $ git status
 
-$ git add <file name.ext> 
+$ git add (file name.ext)
 
-$ git rm --cached <file name>
+$ git rm --cached (file name)
 
 $ git status
 
-$ git commit -a -m 'some commite comment'
+$ git commit -a -m 'some commit comment'
 
-$ git remote add origin
+$ git remote add origin https://github.com/CobyBoy/<>.git
 
 $ git push -u origin master
 
@@ -36,5 +36,7 @@ CREAR README
 $ touch README.md
 
 $ git commit -m 'added readme' 
+
+$ git remote add origin https://github.com/CobyBoy/<>.git
 
 $ git push -u origin master
